@@ -7,16 +7,16 @@ By tracking path deviations ,the system can detect bots.
 --- 
 
 ## **Features**
-- **Human vs Bot detection**:differentiates humans and bot based on the path they choose.
-- **Dynamic traps**:traps are hidden from humans but visible to bots.Traps can change to confuse bots.
-- **2D maze with graph representation**:The maze is represented as graph, allowing for pathfinding and comparision.
+- **Human vs Bot detection**: Differentiates humans and bot based on the path they choose.
+- **Dynamic traps**: Traps are hidden from humans but visible to bots.Traps can change to confuse bots.
+- **2D maze with graph representation**: The maze is represented as graph, allowing for pathfinding and comparision.
 
 
-## **HOw it works **
+## **How it works **
 1. The maze here is stuctured as a graph, with which each node representing a position in maze.
 2. Humans follow the natural shortest path.
 3. Bots avoids the traps and take an alternative path.
-4. if the system finds that the paths are not similar then the user would be identified as a bot.
+4. If the system finds that the paths are not similar then the user would be identified as a bot.
  
 
 
